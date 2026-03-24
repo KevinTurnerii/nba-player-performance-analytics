@@ -1,4 +1,5 @@
-# NBA 2023 Playoff Player Performance Modeling Framework  
+# NBA Player Performance Analytics — Multivariate Modeling & Clustering System
+
 Multivariate Analysis • Composite Metric Engineering • Unsupervised Learning (PCA + KMeans)
 
 ---
@@ -16,8 +17,9 @@ Multivariate Analysis • Composite Metric Engineering • Unsupervised Learning
 
 ## 📑 Table of Contents
 
-- [Project Overview](#project-overview)
+- [Executive Overview](#executive-overview)
 - [Business Problem](#business-problem)
+- [Real-World Application](#real-world-application)
 - [Core Modeling Framework](#core-modeling-framework--composite-performance-index)
 - [Key Insights](#key-insights)
 - [Dimensionality Reduction (PCA)](#dimensionality-reduction-pca)
@@ -30,18 +32,18 @@ Multivariate Analysis • Composite Metric Engineering • Unsupervised Learning
 
 ---
 
-## Project Overview
+## Executive Overview
 
-This project develops a **multivariate performance modeling framework** to evaluate NBA player impact using high-dimensional playoff statistics.
+This project implements a multivariate analytics and clustering system to evaluate NBA player performance using high-dimensional playoff data.
 
-Rather than relying on isolated box score metrics, the system:
+The system converts raw player statistics into structured analytical outputs through:
 
-- Normalizes performance data across multiple statistical categories  
-- Constructs a **composite performance index** for balanced evaluation  
-- Applies **dimensionality reduction (PCA)** to simplify complexity  
-- Uses **unsupervised learning (KMeans)** to segment player roles  
+- Feature normalization  
+- Composite metric engineering  
+- Dimensionality reduction (PCA)  
+- Unsupervised clustering (KMeans)  
 
-The result is a **data-driven player evaluation system** that captures total impact rather than single-stat dominance.
+The result is a **data-driven performance evaluation framework** that captures total player impact across multiple dimensions rather than relying on isolated statistics.
 
 ---
 
@@ -59,6 +61,21 @@ This project addresses:
 - How to **quantify overall player impact holistically**  
 - How to **compare players across positions and play styles**  
 - How to **segment players into meaningful performance tiers**  
+
+---
+
+## Real-World Application
+
+This modeling framework reflects approaches used in sports analytics, performance evaluation, and segmentation across professional teams and analytics departments.
+
+The same techniques can be applied to:
+
+- Customer segmentation  
+- Employee performance evaluation  
+- Behavioral clustering  
+- Multi-metric scoring systems  
+
+This demonstrates how statistical modeling and unsupervised learning extend beyond sports into real-world analytical applications.
 
 ---
 
@@ -97,7 +114,7 @@ A standardized performance index was engineered using:
 4. Jayson Tatum  
 5. Anthony Davis  
 
-> Top-ranked players consistently contributed across multiple categories — not just scoring.
+Top-ranked players consistently contributed across multiple categories — not just scoring.
 
 ---
 
@@ -148,7 +165,7 @@ KMeans clustering (K=3) was applied to PCA-transformed data.
 
 ## Power BI Dashboard
 
-Power BI serves as the **executive reporting layer**, translating modeling outputs into actionable insights.
+Power BI serves as the executive reporting layer, translating modeling outputs into actionable insights.
 
 ### Dashboard Includes:
 
@@ -164,8 +181,6 @@ All visuals are driven directly from validated modeling outputs.
 ---
 
 ## Visual Gallery
-
-These visuals represent key modeling outputs across scoring, defense, clustering, and performance evaluation.
 
 ### PCA Clustering (Player Roles)
 ![PCA Clustering](visuals_nba_2023_playoffs/pca_clustering_roles.png)
@@ -229,4 +244,4 @@ By combining:
 - PCA-based dimensional reduction  
 - Unsupervised clustering  
 
-The framework delivers a **reproducible, data-driven approach to player evaluation** aligned with real-world analytics and modeling workflows.
+The framework delivers a **reproducible, data-driven approach to performance evaluation**, applicable across sports analytics and broader business use cases.
